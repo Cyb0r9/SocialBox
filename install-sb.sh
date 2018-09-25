@@ -2,10 +2,14 @@
 #gmail hack
 git clone https://github.com/Ha3MrX/Gemail-Hack.git
 #facebook
-mkdir facebook
-cd facebook
-wget raw.githubusercontent.com/Sup3r-Us3r/scripts/master/fb-brute.pl
-cd ..
+if [ -d facebook ]; then
+        echo "Directory facebook exists.[✔]"
+else
+	mkdir facebook
+	cd facebook
+	wget raw.githubusercontent.com/Sup3r-Us3r/scripts/master/fb-brute.pl
+	cd ..
+fi
 #Instagram
 git clone https://github.com/thelinuxchoice/instainsane.git
 cd instainsane
