@@ -12,7 +12,7 @@ chmod +x install-sb.sh
 ```
 # Screenshots :
 ![Test Image 8](https://raw.githubusercontent.com/TunisianEagles/SocialBox/master/Screenshots/sb.png)
-![Test Image 8](https://raw.githubusercontent.com/TunisianEagles/SocialBox/master/Screenshots/complete.png)
+![Test Image 8](https://raw.githubusercontent.com/TunisianEagles/SocialBox/master/Screenshots/com.png)
 # Tested On :
 * Backbox linux
 * Ubuntu 
