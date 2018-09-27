@@ -1,5 +1,9 @@
 #!/bin/bash
-#gmail hack
+#Sysupdate
+apt-get update 
+#Python
+apt-get install python
+#gmail
 git clone https://github.com/Ha3MrX/Gemail-Hack.git
 #facebook
 if [ -d facebook ]; then
