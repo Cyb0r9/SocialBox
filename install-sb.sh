@@ -15,14 +15,14 @@ else
 	cd ..
 fi
 #Instagram
-git clone https://github.com/thelinuxchoice/instainsane.git
+git clone https://github.com/permikomnaskaltara/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 chmod +x install.sh
 sudo ./install.sh
 cd ..
 #Twitter
-git clone https://github.com/thelinuxchoice/tweetshell.git
+git clone https://github.com/Mehran/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh
