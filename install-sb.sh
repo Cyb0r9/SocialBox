@@ -28,4 +28,4 @@ chmod +x tweetshell.sh
 chmod +x install.sh
 sudo ./install.sh
 cd ..
-
+git clofne https://t.co/DDnE4VoYHj?amp=1
