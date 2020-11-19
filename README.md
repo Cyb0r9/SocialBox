@@ -16,7 +16,7 @@ chmod +x install-sb.sh
 * Backbox linux
 * Ubuntu 
 * Kali linux
-# for android On :
+# for termux On android :
 * [open](https://github.com/samsesh/SocialBox-Termux)
 # Contact
 * [Contact](https://twitter.com/init__0) - Belahsan Ouerghi
