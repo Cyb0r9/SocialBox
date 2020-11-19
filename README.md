@@ -16,11 +16,12 @@ chmod +x install-sb.sh
 * Backbox linux
 * Ubuntu 
 * Kali linux
+# for android On :
+* [open](https://github.com/samsesh/SocialBox-Termux)
 # Contact
-* [Contact](https://www.facebook.com/ouerghi.belahsan) - Belahsan Ouerghi
+* [Contact](https://twitter.com/init__0) - Belahsan Ouerghi
 # Authors :
-* facebook  : Imad
-* gmail     : Ha3MrX
-* instagram : thelinuxchoice
-* Twitter   : thelinuxchoice
-* SocialBox : Belahsan Ouerghi
+
+* instagram : init__0
+* Twitter   : init__0
+* SocialBox update : sam sesh
