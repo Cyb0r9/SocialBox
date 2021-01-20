@@ -23,5 +23,5 @@ chmod +x install-sb.sh
 # Authors :
 
 * instagram : https://github.com/umeshshinde19/instainsane
-* Twitter   : https://github.com/imprithwishghosh/-tweetshell-
+* Twitter   : https://github.com/neight-1/-tweetshell-
 * SocialBox update : sam sesh
