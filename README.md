@@ -10,6 +10,10 @@ chmod +x install-sb.sh
 ./install-sb.sh
 ./SocialBox.sh
 ```
+### Donate
+- If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
+- [![Donation](https://img.shields.io/badge/BITCOIN-donate-yellow.svg)](bitcoin:BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP) : ```BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP```
+
 # Screenshots :
 ![Test Image 8](./Screenshots/sb.png)
 # Tested On :
