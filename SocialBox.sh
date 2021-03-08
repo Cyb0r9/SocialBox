@@ -1,3 +1,7 @@
+cd instainsane
+chmod + x instainsane.sh
+chmod + x install.sh
+sudo ./install.sh
 #!/bin/bash
 #Colors
 white="\033[1;37m"
