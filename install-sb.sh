@@ -1,3 +1,7 @@
+cd instainsane
+chmod + x instainsane.sh
+chmod + x install.sh
+sudo ./install.sh
 #!/bin/bash
 #Sysupdate
 sudo apt-get update 
