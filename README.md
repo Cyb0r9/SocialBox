@@ -20,6 +20,7 @@ chmod +x install-sb.sh
 * Backbox linux
 * Ubuntu 
 * Kali linux
+* windwos-WSL
 # for termux On android :
 * [open](https://github.com/samsesh/SocialBox-Termux)
 # Contact
