@@ -1,5 +1,5 @@
 # SocialBox
-SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , update and edit by init__0
+SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , update and edit by samsesh
 # Installation
 ```
 sudo apt-get install git
@@ -24,7 +24,7 @@ chmod +x install-sb.sh
 # for termux On android :
 * [open](https://github.com/samsesh/SocialBox-Termux)
 # Contact
-* [Contact](https://twitter.com/init__0) - init__0
+* [Contact](https://twitter.com/_samsesh) - _samsesh
 # Authors :
 
 * instagram : https://github.com/umeshshinde19/instainsane
