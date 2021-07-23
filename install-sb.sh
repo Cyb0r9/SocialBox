@@ -5,7 +5,8 @@ if [[ "$(id -u)" -ne 0 ]]; then
 Please, Run This Programm as Root!"
   exit 1
 fi
-main() {
+main() { 
+  chmod +x SocialBox.sh
   apt-get update
   apt install python
   apt install python3
