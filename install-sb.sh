@@ -1,8 +1,9 @@
 #!/bin/bash
+git pull
 #Sysupdate
-sudo apt-get update 
+sudo apt-get update >> /dev/null
 #Python
-sudo apt-get install python
+sudo apt-get install python tor perl -y
 #gmail
 git clone https://github.com/Ha3MrX/Gemail-Hack.git
 #facebook
@@ -28,4 +29,7 @@ chmod +x tweetshell.sh
 chmod +x install.sh
 sudo ./install.sh
 cd ..
-
+# instagram 2
+git clone https://github.com/samsesh/insta-bf.git
+cd insta-bf 
+chmod +x * -R
