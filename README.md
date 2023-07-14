@@ -12,7 +12,6 @@ chmod +x install-sb.sh
 ```
 ### Donate
 - If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
-- [![Donate with Bitcoin](https://en.cryptobadges.io/badge/small/19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN)](https://en.cryptobadges.io/donate/19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN)
 - [donate page](https://github.com/samsesh/donate)
 # Screenshots :
 ![Test Image 8](./Screenshots/sb.png)
