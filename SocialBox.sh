@@ -31,10 +31,10 @@ echo "		▐█ ▀. ▪     ▐█ ▌▪██ ▐█ ▀█ ██•      ▐
 echo "		▄▀▀▀█▄ ▄█▀▄ ██ ▄▄▐█·▄█▀▀█ ██▪      ▐█▀▀█▄ ▄█▀▄  ·██· "
 echo "		▐█▄▪▐█▐█▌.▐▌▐███▌▐█▌▐█ ▪▐▌▐█▌▐▌    ██▄▪▐█▐█▌.▐▌▪▐█·█▌"
 echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀▀     ·▀▀▀▀  ▀█▄▀▪•▀▀ ▀▀$nc $blue v1$nc"
-echo -e "	[+]              $red Coded By Belahsan Ouerghi$nc         		   [+]"
-echo -e "	[+] 		 $red www.facebook.com/ouerghi.belahsan$nc 		   [+]"
+echo -e "	[+]              $red Coded By Sam.Sesh$nc         		   [+]"
+echo -e "	[+] 		 $red samSesh.net$nc 		   [+]"
 echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		   [+]"
-echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles}$nc [+]"
+echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles , SamSesh}$nc [+]"
 echo ""
 echo -e "$yellow Select From Menu : $nc"
 echo ""
@@ -42,6 +42,7 @@ echo -e "		$Cyan 1 : Brute Force Facebook Account$nc"
 echo -e "		$Cyan 2 : Brute Force Gmail Account$nc"
 echo -e "		$Cyan 3 : Brute Force Instagram Account$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
+echo -e "		$Cyan 5 : Brute Force Instagram Account 2$nc"
 echo -e "		$Cyan 99: Exit$nc"
 read -p "Choice >  " ch
 if [ $ch = 1 ]; then
@@ -91,7 +92,7 @@ else
 exit 1
 fi
 elif [ $ch = 3 ]; then
-echo -e "			$Cyan Instagram Brute Force$nc"
+echo -e "			$Cyan Instagram Brute Force 1$nc"
 cd instainsane/
 sleep 0.025
 	echo -e "	[+]$red Service Tor Stated $nc[+]"
@@ -119,7 +120,7 @@ exit 1
 fi
 elif [ $ch = 4 ]; then
 echo -e "			$Cyan Twitter Brute Force$nc"
-cd tweetshell/
+cd ./-tweetshell-/
 sleep 0.025
         echo -e "	[+]$red Service Tor Stated $nc[+]"
 sleep 0.9
@@ -140,6 +141,33 @@ cd .. && bash SocialBox.sh
 elif [ $check4 = "yes" ]; then
 cd .. && bash SocialBox.sh
 elif [ $check4 = "YES" ]; then
+cd .. && bash SocialBox.sh
+else
+exit 1
+fi
+elif [ $ch = 5 ]; then
+echo -e "			$Cyan Instagram Brute Force 2$nc"
+cd insta-bf/
+sleep 0.025
+        echo -e "	[+]$red Service Tor Stated $nc[+]"
+sleep 0.9
+service tor start
+python3 instabf.py
+echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
+service tor stop
+echo -e "		[+]$red Service Tor Stopped$nc [+]"
+echo -e "$red"
+read -p "Wanna Back To Main Menu [ Y / n ] : " check5
+echo -e "$nc"
+if [ $check5 = "Y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "Yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "YES" ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
